@@ -1,0 +1,650 @@
+
+
+
+/* VARIABLES */
+:root{
+    --flame: #d95d39ff;
+    --deep-champagne: #ffd6a5ff;
+    --cadet-blue: #69a2b0ff;
+    --tea-green: #caffbfff;
+    --mountbatten-pink: #916c80ff;
+    --baby-blue-eyes: #a0c4ffff;
+    --maximum-blue-purple: #bdb2ffff;
+    --dark-pastel-green: #4cb944ff;
+    --forest-green-traditional: #004f2dff;
+
+
+}
+
+
+
+
+
+/* HEADER GENERAL */
+
+.headerGeneral{
+    
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    
+}
+
+nav{
+    width: 50%;
+}
+   
+    
+    
+    
+.headerGeneral ul{ 
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+    
+.headerGeneral li{
+    list-style-type: none;
+    
+    
+
+ }
+
+    
+ .headerGeneral li a{
+     color:#d95d39ff ;
+     font-size: 15px;
+     text-decoration: none;
+     padding: 20px;
+     font-weight: bold;
+   
+
+ }   
+
+ .headerGeneral li a:hover{
+     background-color:rgb(163, 216, 241) ;
+     border-radius: 5px;
+     
+ }
+
+ div picture img{
+     max-width: 250px;
+     padding: 30px;
+ }
+
+
+
+
+
+
+
+/* MAIN */
+
+.mainPricipal{
+    min-height: 75vh;
+
+}
+    
+
+
+#inicio
+    
+
+div h1{
+    color: rgb(8, 46, 107) ;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0;
+    transition: 2s;
+  
+}
+
+div h1:hover{
+    transform: scale(1,2);
+    
+}
+
+.banner{
+    background-image: url(../multimedia/imagenes/cabaña\ 2.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+
+
+
+  
+#nosotros{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#nosotros .mainNosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+#nosotros h2{ 
+    
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(36, 63, 105);
+    text-align: center;
+                
+}
+
+#nosotros p{
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold
+
+}
+    
+
+
+#galeria{
+    padding: 5px 5px;
+    margin-bottom: 30px;
+}
+
+
+
+    
+.mainGaleria {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ 
+          
+
+}
+
+
+ 
+.logoCabañas{
+    animation: animacionLogo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+
+        
+@keyframes animacionLogo {
+    0%{
+        width: 300px;
+        
+    } 
+
+
+    50%{
+        width: 150px;
+        
+    }
+
+
+    100%{
+        width: 300px;
+        
+    }
+
+}
+
+
+
+
+
+#contacto
+
+
+
+h3{
+color: #4cb944ff;
+}
+
+form{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+
+.mainGaleria
+h2{
+    color: brown;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+/* PAGINA UBICACION */
+
+
+.mainPagUbicacion div h1{
+    text-align: center;
+    font-size: 30px;
+    color: slategrey;
+
+}
+
+.mainPagUbicacion .mapaYparrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapaYparrafo div iframe{
+    padding: 15px 20px 15px 20px;
+
+}
+
+
+   
+div h2{
+    font-size: 25px;
+    color:slategrey ;
+    text-align: center;
+}
+
+div p{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.temporadaVerano{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.temporadaVerano h3{
+    font-size: 20px;
+    text-align: center;
+    color:slategrey;
+    padding: 0 80px 0 50px;
+}
+
+
+.temporadaVerano iframe{
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+/* PAGINA RESPUESTA */
+
+.respuestaForm h2{
+    font-size: 30px;
+    color:rgb(40, 106, 212); ;
+    text-align: center;
+    padding: 300px 0 300px 0;
+}
+
+
+/* PAGINA NOSOTROS */
+
+.mainPagNosotros .historia{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.mainPagNosotros .historia h2{
+    font-size: 25px;
+    color: rgb(32, 20, 5);
+    text-align: center;
+    
+    
+}
+
+.mainPagNosotros .historia p{
+    font-size: 20px;
+    color: rgb(27, 17, 4);
+    background-image: linear-gradient(to bottom, rgb(243, 188, 122), rgb(156, 115, 65)  );
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+    margin: 10px 10px 10px 10px;
+}
+
+.mainPagNosotros .container-table{
+
+    width: 90%;
+    background: cadetblue;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-rows: 50px;
+    box-shadow: 0 0 30px black;
+}
+
+.table-titulo{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cyan;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.table-header, .table-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.table-header{
+    font-weight: bold;
+    font-size: 25px;
+    color: forestgreen;
+
+
+}
+   
+.table-item{
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+
+/* PAGINA CONTACTO */
+
+.mainPagContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.mainPagContacto .tablaPrecios 
+       table{
+
+    width: 800px;
+    margin: 30px 20px 30px 20px;
+    font-size: 20px ;
+    
+    
+    
+}
+
+
+
+th{
+    background-color: chartreuse;
+    color: white;
+    padding: 10px 10px;
+}
+
+td{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 10px 40px;
+
+}
+
+tfoot td{
+    background-color: lightseagreen;
+    border-radius: 0 0 10px 10px ;
+}
+
+caption {
+    background-color: lightseagreen;
+    border-radius: 10px 10px 0 0 ;
+    
+
+}
+
+div h2{
+    text-align: center;
+    background-color: lightgreen;
+}
+
+
+
+
+
+.serviciosPagContacto h2{
+    font-size: 20px;
+    color: rgb(34, 177, 70);
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.serviciosPagContacto p{
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(36, 21, 21);
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+
+.serviciosPagContacto .serviciosDetalle{
+    font-size: 15px;
+    color: rgb(175, 100, 8);
+}
+
+.servicios ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.serviciosPagContacto .logoCama{
+    width: 4rem;
+    height: 4rem;
+    
+    
+}
+
+.serviciosPagContacto .logoDesayuno{
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.serviciosPagContacto .logoWifi{
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+
+.serviciosPagContacto .logoJuegos{
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.serviciosPagContacto .logoPiscina{
+    width: 4rem;
+    height: 4rem;
+
+    
+}
+
+.serviciosPagContacto .logoAire{
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.serviciosPagContacto .logoTv{
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+
+.serviciosPagContacto .logoRio{
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.serviciosPagContacto .logos{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* PAGINA GALERIA */
+
+.mainPagGaleria .fotosComplejo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+}
+
+.fotosPagGaleria {
+    width: 40rem;
+    height: 40rem;
+}
+
+.tituloPagGaleria{
+    font-size: 20px;
+    color: rgb(33, 17, 128);
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+
+
+/* FOOTER */
+
+
+footer{
+    
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+ }
+
+
+.redes ul{
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 3rem;
+
+    
+}
+
+.redes li{
+    list-style-type: none;
+    
+
+ }
+
+
+ .redes li a{
+    color:rgb(57, 217, 105) ;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    
+
+}   
+
+footer div{
+    background-color: rgb(205, 199, 240);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.redes .logoInstagram{
+    width: 3rem;
+    height: 3rem;
+}
+
+.redes .logoFacebook{
+    width: 3rem;
+    height: 3rem;
+}
+
+.redes .logoTwitter{
+    width: 3rem;
+    height: 3rem;
+}
+
+.redes .logoWhatsapp{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 750px) {
+main {
+      background-color: #F09A9D; 
+      flex-direction: column;
+
+    }
+
+
+
+  }
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+main {
+      background-color: #F5CF8E; 
+      flex-direction: column;
+    }
+
+    
+    
+    
+  }
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+main {
+      background-color: #cde1f8; 
+
+    }
+  }
